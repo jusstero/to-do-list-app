@@ -1,4 +1,4 @@
-# to-do-list-app
+# To-do list app
 This project is a full stack to-do list web application and was developed as a school project during late 2020 for a full stack web development course. Users can add tasks to a to-do list. Tasks have a name, deadline and a priority. Users can also edit or delete existing tasks. Frontend is built with React and tasks are saved to a SQL database.
 
 The project is deployed to Heroku and is accessible from this url:
@@ -6,6 +6,8 @@ https://tamk-4a00ez62-3002-group24.herokuapp.com/
 
 API entry point is located in
 https://tamk-4a00ez62-3002-group24.herokuapp.com/api
+
+<img src=todo-screenshot.png>
 
 
 
