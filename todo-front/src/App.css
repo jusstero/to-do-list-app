@@ -1,0 +1,192 @@
+.App {
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.todo-list {
+  list-style-type: none;
+  margin: 0 auto;
+  padding-inline-start: 0px;
+}
+
+.button,
+.delete-button {
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.15em solid #282c34;
+  margin: 0.5em 0.3em 0.3em 0;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-weight: 3000;
+  text-align: center;
+  transition: all 0.2s;
+  background-color: #32557a;
+  color: #ffffff;
+  font-size: calc(10px + 2vmin);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.button:hover {
+  background-color: #4f7fb3;
+}
+
+.delete-button {
+  background-color: rgb(109, 36, 36);
+}
+
+.delete-button:hover {
+  background-color: rgb(228, 39, 39);
+}
+
+.item-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.todo-label {
+  font-size: calc(10px + 2vmin);
+}
+
+.App-header {
+  background-color: #282c34;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  text-align: center;
+}
+
+form {
+  display: inline-block;
+  text-align: left;
+  width: 90%;
+}
+
+.task-form {
+  width: 75%;
+  font-size: 16px;
+  background: #495c70;
+  padding: 30px 20px 15px 20px;
+  border: 5px solid #53687e;
+  justify-content: center;
+}
+
+div.form {
+  text-align: center;
+}
+
+.todo {
+  display: inline-block;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.todo-item {
+  width: 80%;
+  font-size: 16px;
+  background: #495c70;
+  padding: 30px 30px 15px 30px;
+  border: 5px solid #53687e;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.checked {
+  transform: scale(3);
+  margin: 20px;
+}
+
+.task-form input[type="submit"],
+.task-form input[type="number"],
+.task-form input[type="name"],
+.task-form input[type="date"],
+.task-form textarea,
+.task-form label {
+  color: #fff;
+}
+.task-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+.task-form label > span {
+  float: left;
+  width: 80%;
+  padding-top: 10px;
+}
+.task-form input[type="name"],
+.task-form input[type="date"] {
+  background-color: #576e86;
+  border: none;
+  width: 80%;
+  outline: none;
+  padding: 0px 0px 0px 0px;
+  font-style: italic;
+}
+
+.task-form textarea {
+  font-style: italic;
+  padding: 0px 0px 0px 0px;
+  background: transparent;
+  outline: none;
+  border: none;
+  width: 90%;
+  overflow: hidden;
+  resize: none;
+  height: 40px;
+}
+
+.task-form input[type="submit"],
+.task-form input[type="number"] {
+  background: #576e86;
+  border: none;
+  padding: 8px 10px 8px 10px;
+  border-radius: 5px;
+}
+.task-form input[type="submit"]:hover,
+.task-form input[type="number"]:hover {
+  background: #394d61;
+}
+
+.input-task-name,
+.input-task-deadline,
+.input-task-priority {
+  height: 30px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+  form {
+    display: inline-block;
+    text-align: left;
+  }
+
+  .task-form {
+    width: 450px;
+    font-size: 16px;
+    background: #495c70;
+    padding: 30px 30px 15px 30px;
+    border: 5px solid #53687e;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  div.form {
+    text-align: center;
+  }
+
+  .todo {
+    display: inline-block;
+    text-align: center;
+  }
+
+  .todo-item {
+    width: 450px;
+    font-size: 16px;
+    background: #495c70;
+    padding: 30px 30px 15px 30px;
+    border: 5px solid #53687e;
+    justify-content: center;
+    margin: 0 auto;
+  }
+}
